@@ -5,16 +5,18 @@ body {
 
 .bookContainer {
     outline: 1px solid #aaa;
-    width: 25rem;
-    height: 15rem;
+    width: 30vw;
+    height: 40vh;
     background-color: #fff;
     float: left;
     margin: 2rem;
-    min-height: 40vh;
+    margin-bottom:10vh;
+
 }
 
 .bookContainer img {
     float: left;
+    width: 15vw;
     margin: 10px;
 }
 
