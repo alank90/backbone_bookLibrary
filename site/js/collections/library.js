@@ -1,8 +1,8 @@
 // site/js/collections/library.js
 
-var  app = app || {};
+var app = app || {};
 
-app.Library  = Backbone.Collection.extend ({
-    model: app.Book
+app.Library = Backbone.Collection.extend({
+    model: app.Book,
+    url: '/api/books'
 });
-
